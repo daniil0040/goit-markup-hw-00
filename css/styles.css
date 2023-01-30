@@ -212,7 +212,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 24px;
 }
 .team {
   background: #f4f4fd;
