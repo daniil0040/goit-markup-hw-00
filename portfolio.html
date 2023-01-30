@@ -11,43 +11,47 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="main-header">
-      <nav class="navigation">
-        <a href="./index.html" class="logotype"
-          ><span class="web">Web</span>Studio</a
-        >
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">Studio</a>
-          </li>
-          <li class="nav-item">
-            <a href="./portfolio.html" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#footer" class="nav-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts header-contacts">
-        <ul class="header-contacts-list list">
-          <li class="header-contacts-item">
-            <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contacts-item">
-            <a href="tel:+110001111111" class="contact-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="navigation">
+          <a href="./index.html" class="logotype"
+            ><span class="web">Web</span>Studio</a
+          >
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-contacts">
+          <ul class="header-contacts-list list">
+            <li class="header-contacts-item">
+              <a href="mailto:info@devstudio.com" class="contact-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts-item">
+              <a href="tel:+110001111111" class="contact-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main class="portfolio-main">
-      <section class="portfolio-nav">
+      <section class="portfolio-section pb">
+        <div class="container">
         <h1 hidden>All types of our projects</h1>
         <ul class="portfolio-nav-list list">
           <li class="portfolio-nav-item">
@@ -74,8 +78,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Banking App Interface Concept</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Banking App Interface Concept</h3>
             <p class="section-text">App</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -84,8 +90,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Cashless Payment</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Cashless Payment</h3>
             <p class="section-text">Marketing</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -94,8 +102,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Meditaion App</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Meditaion App</h3>
             <p class="section-text">App</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -104,8 +114,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Taxi Service</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Taxi Service</h3>
             <p class="section-text">Marketing</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -114,8 +126,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Screen Illustrations</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Screen Illustrations</h3>
             <p class="section-text">Design</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -124,8 +138,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Online Courses</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Online Courses</h3>
             <p class="section-text">Marketing</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -134,8 +150,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Instagram Stories Concept</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Instagram Stories Concept</h3>
             <p class="section-text">Design</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -144,8 +162,10 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Organic Food</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Organic Food</h3>
             <p class="section-text">Web Site</p>
+            </div>
           </li>
           <li class="projects-list-item">
             <img
@@ -154,20 +174,25 @@
               width="360"
               height="300"
             />
-            <h2 class="section-subtitle">Fresh Coffee</h3>
+            <div class="portfolio-card-container">
+            <h2 class="section-subtitle subtitle">Fresh Coffee</h3>
             <p class="section-text">Web Site</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer" id="footer">
-      <a href="./index.html" class="logotype-footer"
-        ><span class="web">Web</span>Studio</a
-      >
-      <p class="footer-contacts">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container page-footer-container">
+        <a href="./index.html" class="logotype-footer"
+          ><span class="web">Web</span>Studio</a
+        >
+        <p class="footer-info">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
